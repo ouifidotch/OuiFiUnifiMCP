@@ -1,0 +1,26 @@
+{
+  "name": "ouifi-unifi-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Unifi — full network visibility and Access control for all your sites via Claude",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "unifi",
+    "mcp",
+    "model-context-protocol",
+    "ubiquiti",
+    "claude",
+    "network",
+    "unifi-access"
+  ],
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "node-fetch": "^3.3.2"
+  }
+}
